@@ -1,0 +1,40 @@
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    color: rgb(37, 141, 231);
+    ;
+}
+
+.sidebar-header {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 130px;
+}
+
+.calendar-icon {
+    font-size: 150px
+}
+
+.sidebar-title {
+    margin-top: 10px;
+    font-family: 'Vladimir Script', cursive;
+    font-size: 20px;
+}
+
+.sidebar-links {
+    padding: 10px 0;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: rgb(37, 141, 231);
+    ;
+    text-decoration: none;
+}
+
+.link i {
+    margin-right: 10px;
+}
