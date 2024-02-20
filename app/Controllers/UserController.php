@@ -2,9 +2,15 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class UserController extends CI_Controller {
+    
+    public function __construct() {
+        parent::__construct();
 
+
+        $this->load->database();
+    }
     public function getRole() {
-        // Vérifier si la variable de session contient le rôle de l'utilisateur
+
         $role = $this->session->userdata('role');
     
         // Charger le modèle correspondant en fonction du rôle de l'utilisateur

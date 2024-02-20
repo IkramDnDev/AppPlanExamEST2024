@@ -40,7 +40,6 @@ export const AuthProvider = ({ children }) => {
     // Mettre à jour l'état isLoggedIn et userRole
     setIsLoggedIn(false);
     setUserRole(null);
-    // Effectuer d'autres opérations de déconnexion si nécessaire
   };
 
   return (
